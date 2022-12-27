@@ -1,21 +1,29 @@
 # Graphic-Spectrum-Analyzer
-## Display in the console a visualization of any .wav audio file!
+## Display a visualization of any .wav audio file in the console!
 
-Ex: 
+### Ex: 
 from n_band_spectrum import playAudio
+
 mySongFile = "C://path/to/audio/file.wav"
+
 playAudio(mySongFile)
 
 
 
-Console Output
-_______________________
-          |  |
-          |  |
-    |     |  |
- |  |     |  |
- |  |     |  |
- |  |  |  |  |  |
- |  |  |  |  |  |  |  |     | 
- ________________________
+
+### Console Output
+___________________
+```
+ |     |  |
+ |     |  |
+ |     |  |
+ |     |  |        |
+ |     |  |     |  |
+ |     |  |     |  |
+ |  |  |  |     |  |
+ |  |  |  |     |  |     |    
+ |  |  |  |     |  |  |  |  | 
+ |  |  |  |     |  |  |  |  | 
+ ```
+________________________
  
