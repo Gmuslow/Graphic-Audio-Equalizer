@@ -10,8 +10,6 @@ playAudio(mySongFile)
 
 Console Output
 _______________________
-
-
           |  |
           |  |
     |     |  |
